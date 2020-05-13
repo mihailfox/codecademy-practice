@@ -16,7 +16,7 @@ def get_traveler_location(traveler):
 
 test_destination_index = get_traveler_location(test_traveler)
 
-attractions = [[], [], [], [], []]print(attractions)
+attractions = [[], [], [], [], []]
 
 def add_attraction(destination, attraction):
   destination_index = get_destination_index(destination)
@@ -51,4 +51,3 @@ def find_attractions(destination, interests):
   return attractions_with_interest
 
 la_arts = find_attractions("Los Angeles, USA", ['art'])
-      
